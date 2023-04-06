@@ -1,0 +1,11 @@
+server:
+  port: 9001
+spring:
+  cloud:
+    loadbalancer:
+      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
